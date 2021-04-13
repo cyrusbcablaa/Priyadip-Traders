@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.toplogo href{
+    border: 2px;
+    border-radius: 100px;
+}
+.nbar{
+    margin-top:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+}   
+.backimage{
+    background: rgba(0,0,0,0.7) url(/picture/Capture.PNG);
+    background-size: cover;
+    background-blend-mode: normal;
+}
+.space{
+    height: 100vh;
+}
+.name{
+  display: flex;
+  font-size: x-large;
+  padding-right:0px;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.logo img{
+    margin-top: 20px;
+    display: flex;
+    padding-right:0px ;
+    height: 80px;
+    width: 80px;
+    border: 10px;
+    border-radius: 100px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.nlist{
+    display: flex;
+    padding-right: 0px;
+    width: 1500px;
+    align-items: center;   
+    margin-bottom: 0px;
+    padding-bottom: 600px;
+}
+.nlist li{
+    margin: 10px;
+    list-style: none;
+}
+.nlist li a{
+    text-decoration: none;
+    color:black;
+    font-size: larger;
+}
+.nlist li a:hover{
+    color: slategray;
+}
+.rnav{ 
+    text-align: right;
+    display: flex;
+    height: 100px;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+.midbar{
+    padding-left: 10px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-right: 50px;
+}
+.box{
+    display: flex;
+    height: 20px;
+    border: 1px grey;
+    margin-bottom: 600px;
+}
+.smb{
+    display: flex;
+    height: 24px;
+    border: 2px;
+    border-style:hidden;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 600px;
+    text-align: center;
+
+}
+.serviceh{
+    background-color: whitesmoke;
+}
+.abouth{
+    background-color: whitesmoke;
+}
+.aboutp{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    font-size: large;
+    color: white;
+    background-color: grey;
+}
+
+.comname{
+    font-size: larger;
+    padding-right: 425px;
+}
+.boxmain{
+    display: flex;
+   
+} 
+.comname{
+    margin-left: 0%;
+}
+.forthsection div p{
+    padding-right: 300px ;
+}
+.forthsection div img{
+    justify-content: center;
+}
+.sixthsection div p{
+    padding-right: 340px;
+}
+.sixthsection div img{
+    justify-content: center;
+}
+.seventhsection div p{
+    padding-right: 340px;
+}
+.seventhsection div img{
+    justify-content: center;
+}
+.eighthsection div p{
+    padding-right: 300px;
+}
+.eighthsection div img{
+    justify-content: center;
+}
+.contact{
+    background-color: rgb(61, 61, 185);
+   width: 100%;
+}
+.contactcolor{
+    background-color: rgb(46, 46, 146) ;
+}
+.footer{
+    color: white;
+    background-color: black;
+    font-size: smaller;
+    text-align: center;
+}
+.burger{
+   display: none;
+   position: absolute;
+   cursor: pointer;
+   right: 6%;
+   top: 23%;
+}
+.line{
+    display: none;
+    width: 33px;
+    height: 4px;
+    margin: 3px;
+    background-color: white;
+    border: 2px;
+    border-radius: 1px;
+}
+@media only screen and (max-width: 1144px){
+    .nlist{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .nbar{
+        height: 780;
+        flex-direction: column;
+        transition:all 0.6s ease-out;
+    }
+    .rnav{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box{
+        flex-direction: column;
+        margin: 40px;
+    }
+    .smb{
+        flex-direction: column;
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .name{
+        flex-direction: column;
+        text-align: center;
+        padding: 0px;
+    }
+    .logo{
+        flex-direction: column;
+        padding: 10px;
+        height: 100px;
+        padding-top: 150px;
+    }
+    .burger{
+        display:block;
+        justify-content: right;
+        bottom: 500px;
+    }
+    .line{
+        margin-bottom: 2px;
+        display: block;
+    }
+    .hnav{
+        height: 400px;
+    }
+    .vclass{
+        opacity: 0;
+    }
+}
